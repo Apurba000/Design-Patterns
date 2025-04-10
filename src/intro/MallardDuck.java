@@ -1,5 +1,8 @@
 package intro;
 
+import intro.behavior.FlyWithWings;
+import intro.behavior.Quack;
+
 public class MallardDuck extends Duck{
 
     public MallardDuck(){

@@ -1,5 +1,8 @@
 package intro;
 
+import intro.behavior.FlyBehaviour;
+import intro.behavior.QuackBehaviour;
+
 public abstract class Duck {
     protected FlyBehaviour flyBehaviour;
     protected QuackBehaviour quackBehaviour;
@@ -16,6 +19,14 @@ public abstract class Duck {
 
     public void performQuack(){
         quackBehaviour.quack();
+    }
+
+    public void setFlyBehaviour(FlyBehaviour fb){
+        flyBehaviour = fb;
+    }
+
+    public void setQuackBehaviour(QuackBehaviour qb){
+        quackBehaviour = qb;
     }
 
 }

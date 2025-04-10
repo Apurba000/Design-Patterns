@@ -1,4 +1,4 @@
-package intro;
+package intro.behavior;
 
 public interface QuackBehaviour {
     void quack();

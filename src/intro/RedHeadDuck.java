@@ -1,5 +1,8 @@
 package intro;
 
+import intro.behavior.FlyWithWings;
+import intro.behavior.Squeak;
+
 public class RedHeadDuck extends Duck{
 
     public RedHeadDuck(){

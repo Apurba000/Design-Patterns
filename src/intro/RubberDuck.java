@@ -1,5 +1,8 @@
 package intro;
 
+import intro.behavior.FlyNoWay;
+import intro.behavior.MuteQuack;
+
 public class RubberDuck extends Duck{
 
     public RubberDuck(){

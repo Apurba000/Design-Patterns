@@ -1,7 +1,5 @@
-import intro.Duck;
-import intro.MallardDuck;
-import intro.RedHeadDuck;
-import intro.RubberDuck;
+import intro.*;
+import intro.behavior.FlyRocketPowered;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +17,12 @@ public class Main {
         printDuck(mDuck);
         printDuck(rDuck);
         printDuck(rUbberDuck);
+
+        Duck modelDuck =  new ModelDuck();
+        printDuck(modelDuck);
+        modelDuck.setFlyBehaviour(new FlyRocketPowered());
+        printDuck(modelDuck);
+
     }
 
     private static void printDuck(Duck duck){
