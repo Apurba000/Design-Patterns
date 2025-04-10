@@ -1,4 +1,4 @@
-package into;
+package intro;
 
 public class FlyNoWay implements FlyBehaviour{
     @Override

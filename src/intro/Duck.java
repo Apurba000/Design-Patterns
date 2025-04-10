@@ -1,15 +1,13 @@
-package into;
+package intro;
 
 public abstract class Duck {
     protected FlyBehaviour flyBehaviour;
     protected QuackBehaviour quackBehaviour;
 
-    public void display(){
-        System.out.println("Displaying Duck");
-    }
+    public abstract void display();
 
     public void swim(){
-        System.out.println("Duck is swimming");
+        System.out.println("All duck float");
     }
 
     public void performFly(){

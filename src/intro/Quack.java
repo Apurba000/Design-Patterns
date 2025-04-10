@@ -1,4 +1,4 @@
-package into;
+package intro;
 
 public class Quack implements QuackBehaviour{
     @Override

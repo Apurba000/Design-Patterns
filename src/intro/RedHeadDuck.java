@@ -1,4 +1,4 @@
-package into;
+package intro;
 
 public class RedHeadDuck extends Duck{
 
@@ -10,10 +10,5 @@ public class RedHeadDuck extends Duck{
     @Override
     public void display() {
         System.out.println("RedHeadDuck is Displaying");
-    }
-
-    @Override
-    public void swim() {
-        System.out.println("RedHeadDuck is swimming");
     }
 }
