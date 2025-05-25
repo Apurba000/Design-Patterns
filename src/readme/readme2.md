@@ -40,3 +40,48 @@ Decorators provide a flexible alternative to subclassing for extending functiona
 
 <img src="../images/starbuzz-5.png">
 
+[Check this commit for starbuzz](https://github.com/Apurba000/Design-Patterns/commit/45bf904e1ad3dab1e8b61d50fb4ea4638034136e)
+
+## Chapter 04 : the Factory Pattern
+
+<img src="../images/pizza-1.png">
+<img src="../images/pizza-2.png">
+<img src="../images/pizza-3.png">
+<img src="../images/pizza-4.png">
+
+Your Objectville Pizza Store has done so well that you’ve trounced
+the competition and now everyone wants a Pizza Store in their
+own neighborhood. As the franchiser, you want to ensure the
+quality of the franchise operations and so you want them to use
+your time-tested code.
+
+But what about regional differences? Each franchise might want to
+offer different styles of pizzas (New York, Chicago, and California,
+to name a few), depending on where the franchise store is located
+
+Lets see one approach 
+
+```java
+NYPizzaFactory nyFactory = new NYPizzaFactory();
+PizzaStore nyStore = new PizzaStore(nyFactory);
+nyStore.orderPizza("Veggie");
+
+ChicagoPizzaFactory chicagoFactory = new ChicagoPizzaFactory();
+PizzaStore chicagoStore = new PizzaStore(chicagoFactory);
+chicagoStore.orderPizza("Veggie");
+```
+
+you found was that the franchises were using your factory to
+create pizzas, but starting to employ their own home-grown
+procedures for the rest of the process: they’d bake things
+a little differently, they’d forget to cut the pizza, and they’d
+use third-party boxes.
+
+Solution : 
+
+what you’d really like to do is create a **framework** that ties the store and the
+pizza creation together. 
+
+<img src="../images/pizza-5.png">
+<img src="../images/pizza-6.png">
+<img src="../images/pizza-7.png">
