@@ -1,5 +1,5 @@
-import intro.*;
-import intro.behavior.FlyRocketPowered;
+import ch01_stratigy.*;
+import ch01_stratigy.behavior.FlyRocketPowered;
 
 public class Main {
     public static void main(String[] args) {
