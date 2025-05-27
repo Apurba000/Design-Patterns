@@ -85,3 +85,38 @@ pizza creation together.
 <img src="../images/pizza-5.png">
 <img src="../images/pizza-6.png">
 <img src="../images/pizza-7.png">
+
+[Check this commit for full code](https://github.com/Apurba000/Design-Patterns/commit/7fdcd9ec2aa1de48b9ef6fc003558459a6037ec6)
+
+<img src="../images/pizza-8.png">
+
+Factory Method Pattern Definition : 
+
+**The Factory Method Pattern** defines an interface
+for creating an object, but lets subclasses decide which
+class to instantiate. Factory Method lets a class defer
+instantiation to subclasses.
+
+### Design principle 6 : (The Dependency Inversion Principle) Depend upon abstractions. Do not depend upon concrete classes
+
+“Program to an interface, not an implementation,” right? It is similar;
+however, the Dependency Inversion Principle makes an even 
+stronger statement about abstraction. It suggests that our
+high-level components should not depend on our low-level
+components; rather, they should both depend on abstractions.
+
+how we’d apply this principle to our very dependent PizzaStore implementation
+
+after we’ve applied the Factory Method Pattern, our diagram looks like this:
+<img src="../images/pizza-9.png">
+
+Factory Method is not the only technique for adhering to the Dependency
+Inversion Principle, but it is one of the more powerful ones.
+
+#### Back at the Pizza Store
+
+Now, the key to Objectville Pizza’s success has always been fresh,
+quality ingredients, and what you’ve discovered is that with the
+new framework your franchises have been following your procedures,But
+Some pizza shops have been using cheaper, lower-quality ingredients in 
+their pizzas to save money and make more profit.
