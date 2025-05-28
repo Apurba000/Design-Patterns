@@ -1,7 +1,7 @@
-package ch04_factory;
+package ch04_factory.factory_method;
 
-import ch04_factory.stores.ChicagoPizzaStore;
-import ch04_factory.stores.NYPizzaStore;
+import ch04_factory.factory_method.stores.ChicagoPizzaStore;
+import ch04_factory.factory_method.stores.NYPizzaStore;
 
 public class PizzaTestDrive {
 

@@ -1,4 +1,4 @@
-package ch04_factory;
+package ch04_factory.abstruct_factory;
 
 public abstract class PizzaStore {
 

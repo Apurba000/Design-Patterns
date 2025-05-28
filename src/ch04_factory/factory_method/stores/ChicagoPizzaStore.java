@@ -1,7 +1,7 @@
-package ch04_factory.stores;
+package ch04_factory.factory_method.stores;
 
-import ch04_factory.Pizza;
-import ch04_factory.PizzaStore;
+import ch04_factory.factory_method.Pizza;
+import ch04_factory.factory_method.PizzaStore;
 
 public class ChicagoPizzaStore extends PizzaStore {
     @Override

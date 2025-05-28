@@ -1,4 +1,4 @@
-package ch04_factory;
+package ch04_factory.factory_method;
 
 import java.util.ArrayList;
 import java.util.List;
