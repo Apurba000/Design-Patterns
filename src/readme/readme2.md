@@ -352,4 +352,5 @@ classes.
 * Design principle 5 : Classes should be open for extension, but closed for modification.
 * Design principle 6 : (The Dependency Inversion Principle) Depend upon abstractions. Do not depend upon concrete classes
 
+### [Go to Part 03](https://github.com/Apurba000/Design-Patterns/blob/master/src/readme/readme3.md)
 
