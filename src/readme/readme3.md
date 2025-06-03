@@ -72,5 +72,12 @@ We can do few things ....
 
 <img src="../images/singleton-05.png">
 
+We can use ENUM for Singleton. 
+
+<img src="../images/singleton-06.png">
+
+All the example can be found in 
+[Here]("https://github.com/Apurba000/Design-Patterns/tree/master/src/ch05_singleton")
+
 
 
